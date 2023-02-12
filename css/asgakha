@@ -1,0 +1,519 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #221e1f;
+}
+.secondary-navigation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 7.12rem;
+  /* エイムストレージ */
+  h2 {
+    height: 4.75rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 111.02%;
+    /* or 60px */
+    color: #ee1c23;
+    /* エイムストレージ */
+    text-shadow: 2px 8px 8px rgba(0, 0, 0, 0.25);
+  }
+  div {
+    button {
+      border-radius: 4px;
+      border: 0;
+      /* Rectangle 4284 */
+      background-color: #ebebeb;
+      border-radius: 4px;
+      /* Rectangle 4284 */
+      width: 12.625rem;
+      height: 3.5rem;
+      /* お問い合わせ */
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000;
+    }
+  }
+}
+.main-nav {
+  /* Rectangle 2 */
+  /* Neutral/100 */
+  background-color: #ffffff;
+  /* Cards/Short Default */
+  box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.06);
+  padding: 1.75rem;
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  ul {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    padding: 0 32px;
+    gap: 3.5rem;
+    li {
+      a {
+        /* トランクルームを探す */
+        font-weight: bold;
+        text-decoration: none;
+        font-family: "Inter";
+        font-style: normal;
+        font-size: 17px;
+        line-height: 29px;
+        /* identical to box height */
+
+        color: #221e1f;
+      }
+    }
+  }
+}
+section#hero-section {
+  /* Rectangle 2 */
+  background-color: #f8f8f8;
+  div {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    .dialog-1,
+    .dialog-2 {
+      position: relative;
+      img {
+        /* Rectangle 4277 */
+        align-self: flex-end;
+        width: 898px;
+        height: 500px;
+        border-radius: 8px;
+      }
+      .img-chat-1 {
+        width: 274px;
+        height: 403px;
+      }
+      .img-chat-2 {
+        width: 319px;
+        height: 319px;
+      }
+    }
+  }
+}
+section#location {
+  display: flex;
+  margin-top: 11.75rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.75rem;
+  h2 {
+    /* アクセスMAP */
+    height: 44px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    text-transform: capitalize;
+
+    /* red */
+    color: #ee1c23;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      /* Rectangle 2425 */
+      width: 1520px;
+      height: 626px;
+      border-radius: 4px;
+    }
+  }
+}
+main {
+  padding: 2rem 0;
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div {
+      margin: auto;
+      width: 1200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      div {
+        position: relative;
+        h2 {
+          text-align: start;
+          width: 100%;
+          /* トランクルームとは */
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 36px;
+          line-height: 44px;
+          /* identical to box height */
+          text-transform: capitalize;
+          /* red */
+          color: #ee1c23;
+        }
+        p {
+          /* 引越し等による荷物の一時保管や、趣味のもの、オフシーズンで使わないもの、本や書類などの長期保管に最適です。建築業や自営業の方の資材置場にも利用されています。24時間いつでも利用可能です！ */
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 36px;
+          /* or 150% */
+          display: flex;
+          align-items: center;
+          padding: 10px;
+          color: #221e1f;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+          /* Top1 (1) 1 */
+          width: 358px;
+          height: 358px;
+          z-index: 999;
+        }
+        .circle {
+          /* Ellipse 1 */
+          position: absolute;
+          width: 357px;
+          height: 356.91px;
+          bottom: 15%;
+
+          /* red */
+          background: #ee1c23;
+          opacity: 0.6;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+  section:nth-child(odd) {
+    height: 600px;
+    background-color: #ffffff;
+  }
+  section:nth-child(even) {
+    /* Rectangle 4286 */
+    height: 600px;
+    background-color: #f8f8f8;
+  }
+}
+footer {
+  .copyright {
+    /* © 2023 All Rights Reserved */
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: capitalize;
+    padding: 1rem 0;
+    color: #000000;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    img {
+      /* image 6 */
+      width: 238px;
+    }
+    div {
+      width: 100%;
+      ul {
+        display: grid;
+        gap:1rem;
+        place-items: start;
+        place-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+        list-style: none;
+        padding: 1.2rem 0 0 0;
+        li {
+          height: 100%;
+          a {
+            /* 会社概要 */
+            text-decoration: none;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px !important;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            text-transform: capitalize;
+
+            /* main */
+            color: #221e1f;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width:1200px){
+
+  main {
+    padding: 2rem 0;
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      div {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        div {
+          img {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+}
+@media (min-width:992px){
+  .main-nav{
+    .collapse{
+      ul{
+        li{
+          width: 100%;
+        }
+      }
+    }
+  }
+  main {
+    padding: 2rem 0;
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      div {
+        margin: auto;
+        width: 100%;
+        max-width: 1400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div {
+          position: relative;
+          h2 {
+            text-align: start;
+            width: 100%;
+            /* トランクルームとは */
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            /* identical to box height */
+
+          }
+          p {
+            /* 引越し等による荷物の一時保管や、趣味のもの、オフシーズンで使わないもの、本や書類などの長期保管に最適です。建築業や自営業の方の資材置場にも利用されています。24時間いつでも利用可能です！ */
+            font-size: 24px;
+            line-height: 36px;
+            /* or 150% */
+            display: flex;
+            align-items: center;
+            padding: 10px;
+          }
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+@media (min-width:768px) {
+
+  main {
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      div {
+        margin: auto;
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div {
+          position: relative;
+          h2 {
+            text-align: start;
+            width: 100%;
+            /* トランクルームとは */
+            font-size: 36px;
+            line-height: 44px;
+            /* identical to box height */
+          }
+          p {
+            /* 引越し等による荷物の一時保管や、趣味のもの、オフシーズンで使わないもの、本や書類などの長期保管に最適です。建築業や自営業の方の資材置場にも利用されています。24時間いつでも利用可能です！ */
+            font-size: 24px;
+            line-height: 36px;
+            /* or 150% */
+            display: flex;
+            align-items: center;
+            padding: 10px;
+          }
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 256px;
+            height: 256px;
+          }
+          .circle {
+
+            width: 256px;
+            height: 256px;
+            bottom: 10%;
+          }
+        }
+      }
+    }
+  }
+  
+}
+@media only screen and (max-width: 767px) {
+  main {
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      div {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        div {
+          position: relative;
+          h2 {
+            text-align: center;
+            width: 100%;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 36px;
+          }
+          p {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 28px;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+          }
+          img {
+            width: 256px;
+            height: 256px;
+            z-index: 999;
+          }
+          .circle {
+            width: 256px;
+            height: 256px;
+            bottom: 10%;
+          }
+        }
+      }
+    }
+  }
+  footer{
+    .container{
+      display: grid;
+      grid-template-columns: 1fr;
+      div{
+        grid-row:1/2;
+        place-items: center;
+        gap:4rem
+      }
+    }
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 516px) {
+  main {
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      div {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        div {
+          position: relative;
+          h2 {
+            text-align: start;
+            width: 100%;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+          }
+          p {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+          }
+          img {
+            width: 200px;
+            height: 200px;
+            z-index: 999;
+          }
+          .circle {
+            width: 200px;
+            height: 200px;
+            bottom: 10%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
